@@ -1,8 +1,7 @@
-
-Participante = Bruno
-
-Juliana
-
-robert
+# Partipantes
+- Juliana
+- Roberto
+- Bruno
+- Rodrigo
 
 
