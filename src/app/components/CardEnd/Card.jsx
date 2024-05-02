@@ -17,7 +17,7 @@ function CatCard() {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
-      {/* Campo de Upload de Imagem */}
+     
       <div>
         <label htmlFor="imageUpload" className="block text-sm font-medium text-gray-700">
           Upload de Imagem
@@ -30,7 +30,7 @@ function CatCard() {
           className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
         />
       </div>
-      {/* Campos de Texto para Raça, Idade e Nome */}
+     
       <div>
         <label htmlFor="breed" className="block text-sm font-medium text-gray-700">
           Raça do Gato
@@ -67,7 +67,7 @@ function CatCard() {
           className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
         />
       </div>
-      {/* Botão de Envio */}
+     
       <button type="submit" className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
         Enviar
       </button>
