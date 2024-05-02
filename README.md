@@ -1,4 +1,4 @@
-# Partipantes
+# Participantes
 - Juliana
 - Roberto
 - Bruno
