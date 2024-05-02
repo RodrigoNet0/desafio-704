@@ -1,5 +1,5 @@
 import { AiOutlineUser } from "react-icons/ai";
-import { AiOutlinePlus } from "react-icons/ai";
+import ModalUser from "./ModalUser";
 
 export default function Header() {
     return (
@@ -7,7 +7,8 @@ export default function Header() {
         <header className="flex space-x-64 gap-x-32">
             <h1 className="text-center">Cat List</h1>
             <button> + Add Cat</button>
-            <button><AiOutlineUser /></button>
+            <button ><AiOutlineUser /></button>
+            <ModalUser />
         </header>
         </div>
     )
