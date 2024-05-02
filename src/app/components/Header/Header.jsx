@@ -1,6 +1,8 @@
 'use client';
 
 import { useState } from "react";
+import PopUpUsuario from "./PopUpUsuario";
+
 import { AiOutlineUser } from "react-icons/ai";
 import { AiOutlinePlus } from "react-icons/ai";
 
@@ -12,7 +14,8 @@ export default function Header() {
         <header className="flex space-x-64 gap-x-32">
             <h1 className="text-center">Cat List</h1>
             <button> + Add Cat</button>
-            <button onClick={()=> setShow(true)}><AiOutlineUser /></button>
+            <PopUpUsuario />
+            {/* <button onClick={()=> setShow(true)}><AiOutlineUser /></button> */}
             {/* <Modal show={show}/> */}
         </header>
         </div>

@@ -4,7 +4,6 @@ import apiGatos from '../../services/apiService.jsx';
 
 const LoginForm = () => {
   const [formData, setFormData] = useState({
-    name: '',
     email: '',
     password: ''
   });

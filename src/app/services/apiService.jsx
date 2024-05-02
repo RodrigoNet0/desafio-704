@@ -8,6 +8,12 @@ async function criarConta(dados) {
    
     return await API.post(`/auth/signup`, dados);
 } 
+
+async function exibirDadosUsuario(dados) {
+   
+    return await API.post(`/me`, dados);
+} 
+
 async function logarConta(dados) {
    
     return await API.post(`/auth/signin`, dados);
@@ -53,7 +59,8 @@ const apiGatos = {
     cadastrarRaca,
     buscarRaca,
     cadastrarIdade,
-    buscarIdade
+    buscarIdade,
+    exibirDadosUsuario
 }
 
 export default apiGatos;
