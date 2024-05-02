@@ -9,21 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-<<<<<<< HEAD
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
+    "@mui/base": "^5.0.0-beta.40",
     "@mui/icons-material": "^5.15.16",
     "@mui/material": "^5.15.16",
+    "axios": "^1.6.8",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.2.0"
-=======
-    "axios": "^1.6.8",
-    "next": "14.2.3",
-    "react": "^18",
-    "react-dom": "^18"
->>>>>>> 95af9eb155ac74b73cca5c4dc99b10ed7f149fa2
   },
   "devDependencies": {
     "postcss": "^8",
