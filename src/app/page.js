@@ -1,4 +1,6 @@
 'user client';
+import GetCat from "./components/Cat/GetCat";
+import SignUp from "./components/Create/SignUp";
 import Header from "./components/Header/Header";
 import LoginForm from "./components/Header/LoginForm";
 
@@ -8,6 +10,8 @@ export default function Home() {
         <div>
             <Header/>
             <LoginForm/>
+            <GetCat/>
+            <SignUp/>
         </div>
     </main>
   );
