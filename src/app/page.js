@@ -1,12 +1,13 @@
+'user client';
 import Header from "./components/Header/Header";
-import Form from "./components/formularios/Form";
+import LoginForm from "./components/Header/LoginForm";
 
 export default function Home() {
   return (
     <main className="">
         <div>
             <Header/>
-            <Form />
+            <LoginForm/>
         </div>
     </main>
   );
